@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: en\n"
+
+# Copyright (C) 2021 Mighty Addons
+# This file is distributed under the GNU General Public License v2 or later.
+#: panel.php:68
+msgid "Widgets"
+msgstr ""
+
+#: panel.php :77
+msgid "Extensions"
+msgstr ""
+
+#: panel.php :86
+msgid "Go Pro 🔥"
+msgstr ""
+
+#: panel.php :95
+msgid "Integrations 🔨"
+msgstr ""
+
+#: panel.php :77
+msgid "Mighty Widgets"
+msgstr ""

@@ -6,13 +6,13 @@
  * Version:     1.4.9
  * Author:      MightyThemes
  * Author URI:  https://mightythemes.com/
- * Text Domain: mighty
+ * Text Domain: mighty-addons
  * Elementor tested up to: 3.1.4
  * Elementor Pro tested up to: 3.1.1
+ * Domain Path: /languages
  */
 
 namespace Mighty_Addons;
-
 use MightyAddons\Classes\DashboardPanel;
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -88,7 +88,7 @@ final class Mighty_Addons {
 	 * @access public
 	 */
 	public function i18n() {
-		load_plugin_textdomain( 'mighty' );
+		load_plugin_textdomain( 'mighty-addons', false, 'mighty-addons/languages' );
 	}
 
 
@@ -133,8 +133,10 @@ final class Mighty_Addons {
 	 * @since 1.0.0
 	 * @access public
 	 */
+
+	
 	public function init() {
-		
+
 		// Register Custom Controls
 		add_action( 'elementor/controls/controls_registered', [$this, 'register_controls'] );
 
